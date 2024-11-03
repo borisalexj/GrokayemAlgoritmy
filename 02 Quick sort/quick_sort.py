@@ -1,5 +1,7 @@
 
 def quickSort(array):
+    print("--------------------")
+    print("array - ", array)
     if len(array) <2:
         return array
     else:
